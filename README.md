@@ -471,4 +471,5 @@ Built with using AWS CLI + Bash + Cron
 
 **[Report Bug](https://github.com/sumzbiz/aws-daily-resource-monitor/issues)** · **[Request Feature](https://github.com/sumzbiz/aws-daily-resource-monitor/issues)**
 
-</div>
+</div>#   a w s - d a i l y - r e s o u r c e - m o n i t o r  
+ 
