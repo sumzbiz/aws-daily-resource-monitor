@@ -1,0 +1,54 @@
+# ─── Log Files ───────────────────────────────────────────
+logs/
+*.log
+!logs-sample/
+
+# ─── AWS Credentials — NEVER commit these ────────────────
+.aws/
+credentials
+.env
+.env.*
+*.pem
+*.key
+config.local
+
+# ─── OS Files ────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ─── Editor Files ────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# ─── Temp & Backup Files ─────────────────────────────────
+*.tmp
+*.bak
+*.backup
+*.orig
+*_backup
+
+# ─── Test Output ─────────────────────────────────────────
+test-output/
+/tmp/
+
+# ─── Shell Script Compiled (if any) ──────────────────────
+*.sh.bak
+
+# ─── Package managers (if extended later) ────────────────
+node_modules/
+__pycache__/
+*.pyc
+.terraform/
+*.tfstate
+*.tfstate.backup
